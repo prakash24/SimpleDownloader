@@ -31,7 +31,7 @@ public class DownloadManager {
     private static final Logger log = LoggerFactory.getLogger(DownloadManager.class);
     
     @VisibleForTesting
-    static final String outputDir = "/Users/kuprk/tmp/";
+    static final String outputDir = "/tmp/downloaded/";
     
     @Timed
     public String download(String uri, Integer overridenThreadCount) throws DownloadFailedException{
